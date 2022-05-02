@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #f9f9f4;
+
+}
+
+/* ESTILO CABECERA*/
+
+.cabeceraPagina {
+    background-color: #253062;
+    text-align: center;
+    padding: 5px 0;
+
+}
+
+.cabeceraTitulo {
+    color: #fff;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+
+.cabeceraDescripcion {
+    color: #fff;
+    padding: 20px 0;
+}
+
+.respuesta {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.respuesta p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* CONTENEDOR DE LAS FIGURAS*/
+
+.figuras {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    max-width: 1000px;
+
+}
+
+.caja {
+    width: 30%;
+    height: 600px;
+    border: 3px solid #253062;
+    border-radius: 10px;
+    margin: 15px;
+    float: left;
+}
+
+.caja-titulo {
+    background-color: #253062;
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+}
+
+.caja-cuerpo {
+    text-align: center;
+    padding: 10px;
+}
+
+.caja-cuerpo-texto {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.caja-cuerpo-input {
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px ;
+    padding: 10px;
+    color: #253062;
+    border: solid #253062;
+    border-radius: 5px;
+}
+
+.caja-cuerpo-boton {
+    background-color: #253062;
+    color: #fff;
+    width: 120px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.caja-cuerpo-boton:hover {
+    background-color: #fff;
+    color: #253062;
+    cursor: pointer;
+}
+
+.caja-cuerpo-boton:active {
+    background-color: #4f2361;
+}
+
+/* WEB RESPONSIVO*/
+
+@media screen and (max-width:1021px){
+    .figuras{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px){
+
+    .caja {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:640px){
+
+    .caja {
+        width: 90%;
+        margin: 25px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:640px){
+
+    .caja {
+        width: 90%;
+        margin: 20px;
+        height: auto;
+    }
+
+    .cabeceraTitulo{
+        font-size: 25px;
+    }
+    
+    .respuesta p{
+        font-size: 20px;
+    }
+}
+
